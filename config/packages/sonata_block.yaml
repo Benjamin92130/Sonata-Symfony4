@@ -1,0 +1,3 @@
+sonata_block:
+  blocks:
+    sonata.timeline.block.timeline:

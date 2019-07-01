@@ -1,0 +1,10 @@
+sonata_media:
+    db_driver: doctrine_orm # or doctrine_mongodb, doctrine_phpcr it is mandatory to choose one here
+
+sonata_classification:
+  class:
+    tag: App\Application\Sonata\ClassificationBundle\Entity\Tag
+    category: App\Application\Sonata\ClassificationBundle\Entity\Category
+    collection: App\Application\Sonata\ClassificationBundle\Entity\Collection
+    context: App\Application\Sonata\ClassificationBundle\Entity\Context
+

@@ -1,0 +1,10 @@
+# config/packages/sonata_timeline.yaml
+
+sonata_timeline:
+  manager_type: orm
+  class:
+    timeline:         '%spy_timeline.class.timeline%'
+    action:           '%spy_timeline.class.action%'
+    component:        '%spy_timeline.class.component%'
+    action_component: '%spy_timeline.class.action_component%'
+    user:             '%sonata.user.admin.user.entity%'
